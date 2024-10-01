@@ -86,12 +86,30 @@ body{
 }
 
 
+
+@media (max-width:769px) {
+
+    body{
+        min-width: 990px;
+        
+    }
+}
+
+
+
+
+
 @media (max-width:450px) {
     
 
 *{
     margin: 0px;
     padding: 0px;
+}
+
+body{
+    min-width: 450px;
+   
 }
 
 .efficient-delivery p{
